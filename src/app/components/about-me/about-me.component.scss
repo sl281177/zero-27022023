@@ -1,0 +1,32 @@
+@import '../../../styles';
+
+a {
+  line-height: 40px;
+}
+
+.contact-container {
+  display: flex;
+}
+
+.contact {
+  flex-grow: 1;
+  margin-right: 5px;
+}
+
+.map {
+  min-width: 150px;
+  height: 150px;
+}
+
+@media all and (max-width: $container-min-width) {
+  .contact-container {
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+  }
+
+  .map {
+    margin-top: 15px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,14 @@
+a {
+  margin: 0 2px;
+}
+
+.project {
+  margin-top: 45px;
+  div {
+    margin-bottom: 10px;
+  }
+}
+
+.project:first-of-type {
+  margin-top: 0;
+}

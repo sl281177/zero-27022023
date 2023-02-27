@@ -1,0 +1,30 @@
+<div class="container">
+
+  <div class="main">
+    <app-navigation class="top-navigation" [horizontal]="true"></app-navigation>
+    <button [routerLink]="['/aboutme']" class="application-link home-link">FRONTEND-/ FULL-STACK-ENTWICKLER</button>
+    <div>
+      <h1>Hallo ZERO-Team,<br>ich bin Stefan Laumann.</h1>
+      <p class="cover-note">
+        Als erfahrener Software-Entwickler habe ich in den letzten fast 5 Jahren die Migration, Weiter- und
+        Neuentwicklung hybrider Apps auf Basis des Ionic und Angular Frameworks initiiert und vorangetrieben. Mehr als
+        20 anspruchsvolle Projekte für US-amerikanische Tankstellenketten konnte ich zusammen mit meinem Team im agilen
+        Entwicklungsprozess erfolgreich durchführen. Über die Front-End-Entwicklung hinaus, arbeite ich auch an der
+        Bereitstellung und Weiterentwicklung unserer Back-End-Lösungen mit.
+      </p>
+    </div>
+    <div style="padding-right: 45px;">
+      <router-outlet></router-outlet>
+    </div>
+    <div class="footer">
+      <div>&#169; 2023</div>
+      <div><a [routerLink]="['/impressum']">Impressum</a></div>
+    </div>
+  </div>
+
+  <div class="sidebar">
+    <img class="portrait" src="../assets/portrait.jpg" alt="portrait">
+    <app-navigation></app-navigation>
+  </div>
+
+</div>

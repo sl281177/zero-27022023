@@ -1,0 +1,25 @@
+ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.step {
+  margin-left: 13px;
+  padding-left: 45px;
+  margin-top: 20px;
+  position: relative;
+  border-left: 1px black solid;
+}
+
+.timeline {
+  line-height: 25px;
+  padding-left: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: top left;
+  transform: rotate(-90deg) translate(-100%, -12px);
+  background-color: white;
+  font-family: "Source Code Pro", "Lucida", "Courier New", monospace;
+  font-weight: bold;
+}
